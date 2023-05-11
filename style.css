@@ -1,0 +1,45 @@
+ /*this is not connecting to my html 
+ and I need help.*/
+ /*i moved this file into UX_UI_HW_17 
+ and now it is connected, no longer in File css*/
+li.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+li{
+    color:coral;
+}
+.logo{
+    width:23%;
+    padding:1%;
+    text-align:center;
+}
+nav{
+    width:73%;
+    padding:1%;
+}
+ul{
+    margin-left:auto;
+    width:50%
+}
+section.heroImg{
+    height:600px;
+    padding:25px
+}
+div.content{
+    width: 500px;
+    margin:center;
+    background: color #f0f0f0;
+}
+footer{
+    background-color: #373738;
+    width:100%;
+    padding: 1%;
+    display:inline-block;
+    vertical-align:top; 
+}
+footer.ul{
+    margin-right: auto;
+    width:50%;
+    padding: 30px;
+}
