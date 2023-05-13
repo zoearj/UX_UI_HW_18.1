@@ -93,9 +93,10 @@ button{
 }
 @media screen and (max-width:600px){
    .flexContainer{
-        display:flex
+        display:flex;
+        flex-direction: column;
     }
     .flexchild{
-        flex-direction: column;
+        width: 100%;
     }
 }
