@@ -91,10 +91,11 @@ gap: 15px;
 button{
     color: rgb(3, 2, 39);
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px){
     div.flexContainer{
         display:flex
     }
     .flexchild{
         flex-direction: column;
     }
+}
