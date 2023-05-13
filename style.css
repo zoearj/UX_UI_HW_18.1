@@ -92,7 +92,7 @@ button{
     color: rgb(3, 2, 39);
 }
 @media screen and (max-width:600px){
-    div.flexContainer{
+   .flexContainer{
         display:flex
     }
     .flexchild{
