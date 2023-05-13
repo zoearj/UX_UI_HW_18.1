@@ -45,6 +45,7 @@ footer.ul{
 }
 div.flexContainer{
     display:flex;
+    flex-direction: row;
 }
 .flexchild{
     width:33%;
@@ -99,4 +100,5 @@ button{
     .flexchild{
         width: 100%;
     }
+    .workGrid
 }
