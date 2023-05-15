@@ -59,12 +59,16 @@ div.flexContainer{
     margin: 100;
     border-radius: 25px;
     border: 5px solid #190d4e;
+    align-content: center;
+}
+.myWork{
+    max-width: 90%;
 }
 .workGrid{
 display: grid;
 grid-template-rows: auto auto;
 grid-template-columns: 1fr 3fr;
-grid-template-areas:'item1''item2''item3''item4''item5''item6';
+grid-template-areas:'item1 item2''item3 item4''item5 item6';
 }
 .item1{
     grid-area: item1;
@@ -90,13 +94,26 @@ button{
 @media screen and (max-width:600px){
    div.flexContainer{
         flex-direction: column;
-        width: 100%;
+        width: 90%;
+        flex-wrap: wrap;
     }
     .flexchild{
-        width: 100%;
+        width: 90%;
     }
     .workGrid{
-        grid-template-columns: 1fr;
-        grid-template-areas: ;
+        grid-template-columns:minmax(90% ) 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-gap: 15px;
     }
+    .HEADSKILL{
+        max-width: 90%;
+        align-self: center;
+    }
+    .myWork{
+        align-content: center;
+       width: 200px;
+    }
+    
 }
+/* i am having trouble with fitting the content, 
+suffering from horizontal scroll*/
